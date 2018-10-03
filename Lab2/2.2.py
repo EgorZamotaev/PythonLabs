@@ -33,13 +33,22 @@ def vinz():
 				ws.cell(column=j, row=i, value=val)
 
 def lineApr():
-	sum=[[]for i in range(1,21)]
-	for i in range(1, 21):
-		for j in range(1,21):
-			sum[i]+=ws[get_column_letter(j)+str(i)].value
-		for j in range():
+	for j in range(1,21):
+		sumx = 0 
+		sumx2 = 0
+		sumy = 0
+		sumxy = 0
+		for i in range(1,21):
+			sumx += i-1
+			sumx2 += (i-1)**2
+			sumy += ws[get_column_letter(j) + str(i)].value
+			sumxy += ws[get_column_letter(j) + str(i)].value*(i-1)
+		a = (20*sumxy - sumx*sumy)/(20*sumx2 - sumx**2)
+		b = (sumy-a*sumx)/20
+		for i in range(1,21):
 			if ws[get_column_letter(j) + str(i)].value == 0:
-				ws.cell(column = j, row = i, value = sum[i]/20)
+				val = a*i + b
+				ws.cell(column=j, row=i, value=val)
 
 
 def corr():
@@ -57,14 +66,17 @@ def corr():
 if __name__ == '__main__':
 	wb=openpyxl.load_workbook('Lab2.xlsx')
 
-	wb.create_sheet('Задание 2')
+	#wb.create_sheet('Задание 2')
 	ws=wb['Задание 2']
-	table()
-	method=input('Введите вид алгоритма для восстановления данных:1-Винзорирование,2-Линейная аппроксимация,3-Корреляционное восстановление\n')
-	if method==1:
+	 #table()
+	
+	method=int(input('Введите вид алгоритма для восстановления данных:1-Винзорирование,2-Линейная аппроксимация,3-Корреляционное восстановление\n'))
+
+	if method == 1:
 		vinz()
-	elif method==2:
+	elif method == 2:
 		lineApr()
-	else:
+	elif method == 3:
 		corr()
+	
 	wb.save('Lab2.xlsx')

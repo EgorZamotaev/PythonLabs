@@ -19,8 +19,6 @@ ws=wb.active
 ws.title='Задание1'
 
 coordinates=[[uniform(space[0],space[1]),uniform(space[0],space[1])] for i in range(20)]
-print(coordinates)
-print(coordinates[0][0])
 
 ws['A1']='x'
 ws['B1']='y'
@@ -36,7 +34,6 @@ for i in range(20):
     sumy+=float(y[i])
     sumx2+=float(x[i])**2
     sumxy+=float(x[i])*float(y[i])
-print(sumx,' ',sumy,' ',sumx2,' ',sumxy)
 
 a=(20*sumxy-sumx*sumy)/(20*sumx2-sumx**2)
 b=(sumy-a*sumx)/20
