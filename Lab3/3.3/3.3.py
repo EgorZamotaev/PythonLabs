@@ -24,8 +24,6 @@ def size_m(matrix):
     return m
 
 def rank(matrix, n=0):
-    """ Функции check (проверяет наличие нулевых строк и столбцов в матрице и удаляет их)
-     и swap (если элемент a[i][i] равен 0, ищет в столбце ненулевой элемент и меняет строки так, чтобы a[i][i] != 0"""
 
     def check(matrix):
         list = []
@@ -82,7 +80,7 @@ def rank(matrix, n=0):
 
 
 if __name__ == '__main__':
-    matrix = [[1,2,3,4],[1,2,3,4]]
+    matrix = [[1, 2, 3, 4], [1, 2, 3, 4]]
     np_matrix = np.array(matrix)
     print(rank(matrix))
     print(np.linalg.matrix_rank(np_matrix))

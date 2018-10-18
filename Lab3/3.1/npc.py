@@ -1,5 +1,4 @@
 from pygame import *
-import pygame
 MOVE_SPEED = 10
 WIDTH = 10
 HEIGHT = 10

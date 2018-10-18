@@ -1,3 +1,4 @@
+
 from npc import NPC
 import pygame
 from pygame import *
@@ -153,7 +154,6 @@ def main():
             if ms == 'kek':
                 break
             pygame.display.update()
-
 
 
 if __name__ == '__main__':
