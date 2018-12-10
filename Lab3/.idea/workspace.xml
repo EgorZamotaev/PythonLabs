@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92119bb6-c969-451f-bd48-f198cca30430" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.1/main_game.py" beforeDir="false" afterPath="$PROJECT_DIR$/3.1/main_game.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.1/npc.py" beforeDir="false" afterPath="$PROJECT_DIR$/3.1/npc.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.2/test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.3/3.3.py" beforeDir="false" afterPath="$PROJECT_DIR$/3.3/3.3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Отчет.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Отчет.docx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,17 +14,18 @@
     <session id="1788739662">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="10" />
+          <entry key="project.closed" value="11" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="11" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -370,9 +367,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <frame x="0" y="-2" width="1920" height="1082" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18797815" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18766473" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -449,6 +446,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/blocks.py" />
     <entry file="file://$PROJECT_DIR$/3.2/test.py" />
+    <entry file="file://$PROJECT_DIR$/3.2/3.2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="10" />
+          <folding>
+            <marker date="1539822097879" expanded="true" signature="975:1031" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.3/3.3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.1/main_game.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/3.1/npc.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -467,30 +488,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3.3/3.3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3.1/main_game.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3.2/3.2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="10" />
-          <folding>
-            <marker date="1539822097879" expanded="true" signature="975:1031" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
